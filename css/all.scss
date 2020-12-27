@@ -1,2 +1,8 @@
-@import './reset';
+
+@import './bulma.min';
+// 使用bulma normalize css
+// @import './reset';
+
+@import './var';
+@import './helpers';
 @import './home';

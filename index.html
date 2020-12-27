@@ -4,17 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
     <title>petpet</title>
 </head>
 <body>
     <div class="nav">
-        <!-- <img src="https://hexschool.github.io/webLayoutTraining1st/week6/d’Perfume.png" alt="">
-        <ul>
-            <li><img src="" alt=""><span></span></li>
-            <li><img src="" alt=""><span></span></li>
-            <li><img src="" alt=""><span></span></li>
-            <li><img src="" alt=""><span></span></li>
-        </ul> -->
+        <!-- 素材: https://github.com/hexschool/webLayoutTraining1st -->
+        <!-- 設計稿: https://xd.adobe.com/view/2c355bc0-1368-4995-b20d-9882992c75b0-7966/screen/69b72d39-0e8e-4849-96a2-617108c70de1/ -->
+        <img class="logo" src="https://hexschool.github.io/webLayoutTraining1st/petpet-week8/logo.svg" alt="">
+        <ul class="nav-list">
+            <li class="nav-page"><a href="#">預約服務</a></li>
+            <li class="nav-page"><a href="#">成為寵物保姆</a></li>
+            <li class="nav-page"><a href="#">登入</a></li>
+        </ul>
+    </div>
+    <div class="banner">
+        <img class="banner-left" src="https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-1.png" alt="">
+        <div class="banner-right">
+            <h1>寵物服務，盡在 PETPET</h1>
+            <p>當您的毛孩有需要時，幫您找到最合適的服務者！</p>
+            <div class="search-field">
+                <div class="select">
+                    <select class="type-dropdown" name="品種" id="type">
+                        <option selected>品種</option>
+                        <option value="tw">土狗</option>
+                    </select>
+                </div>
+                <div class="select">
+                    <select class="service-dropdown" name="服務" id="service">
+                        <option selected>服務</option>
+                        <option value="wash">洗澡</option>
+                    </select>
+                </div>
+                <div class="select">
+                    <select class="location-dropdown" name="地區" id="location">
+                        <option selected>地區</option>
+                        <option value="taipei">台北</option>
+                    </select>
+                </div>
+                <div class="control">
+                    <a class="button search-btn" href="#">
+                      搜尋
+                    </a>
+                </div>
+            </div>
+            <span class="material-icons red md-44 godown-icon">
+                arrow_drop_down_circle
+            </span>
+        </div>
+    </div>
+    <div class="content">
+        <h2>本月熱門保姆</h2>
+        <p>即時瞭解您的需求，安排最適合毛孩的寵物保姆！</p>
+        <ul class="slide-list">
+            <li class="card">
+                <img class="photo" src="https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-2.jpeg" alt="">
+                <div class="content">
+                    <img class="avatar" src="https://hexschool.github.io/webLayoutTraining1st/petpet-week8/person-1.png" alt="">
+                    <h3>Jamie</h3>
+                    <p>寄宿、美容、寵物行為訓練</p>
+                    <div class="control">
+                        <a class="button booking-btn" href="#">
+                          預約
+                        </a>
+                    </div>
+                    <ul class="grade">
+                        <li class="each-grade">
+                            <h4>獲得評價</h4>
+                            <p><span class="num">198</span><span class="type">則</span></p>
+                        </li>
+                        <li class="each-grade">
+                            <h4>已完成訂單</h4>
+                            <p><span class="num">580</span><span class="type">件</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="card">
+                <img class="photo" src="https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-3.jpeg" alt="">
+                <div class="content">
+                    <img class="avatar" src="https://hexschool.github.io/webLayoutTraining1st/petpet-week8/person-2.png" alt="">
+                    <h3>Eric</h3>
+                    <p>寄宿、美容</p>
+                    <div class="control">
+                        <a class="button booking-btn" href="#">
+                          預約
+                        </a>
+                    </div>
+                    <ul class="grade">
+                        <li class="each-grade">
+                            <h4>獲得評價</h4>
+                            <p><span class="num">79</span><span class="type">則</span></p>
+                        </li>
+                        <li class="each-grade">
+                            <h4>已完成訂單</h4>
+                            <p><span class="num">208</span><span class="type">件</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="card">
+                <img class="photo" src="https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-4.jpeg" alt="">
+                <div class="content">
+                    <img class="avatar" src="https://hexschool.github.io/webLayoutTraining1st/petpet-week8/person-3.png" alt="">
+                    <h3>Yvonne</h3>
+                    <p>美容、寵物行為訓練</p>
+                    <div class="control">
+                        <a class="button booking-btn" href="#">
+                          預約
+                        </a>
+                    </div>
+                    <ul class="grade">
+                        <li class="each-grade">
+                            <h4>獲得評價</h4>
+                            <p><span class="num">52</span><span class="type">則</span></p>
+                        </li>
+                        <li class="each-grade">
+                            <h4>已完成訂單</h4>
+                            <p><span class="num">196</span><span class="type">件</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
     </div>
 </body>
 </html>
