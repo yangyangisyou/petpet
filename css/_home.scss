@@ -48,7 +48,7 @@
     }
 }
 
-.content {
+.section {
     padding: 80px;
     h2 {
         font-size: 32px;
@@ -57,57 +57,120 @@
     p {
         font-size: 20px;
     }
-    .slide-list {
-        display: flex;
-        .card {
-            width: 350px;
-            height: 100%;
-            border: 1px black solid;
+}
+
+.slide-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    .card {
+        width: 350px;
+        height: 100%;
+        border: 1px black solid;
+        overflow: hidden;
+        margin: auto 30px;
+        .photo-filter {
+            height: 120px;
             overflow: hidden;
-            .photo-filter {
-                height: 120px;
-                overflow: hidden;
+        }
+        .userinfo {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            margin-top: -100px;
+            .avatar {
+                width: 100px;
             }
-            .userinfo {
-                position: relative;
+            h3 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+            .grade {
                 display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding: 40px;
-                margin-top: -100px;
-                .avatar {
-                    width: 100px;
+                justify-content: space-between;
+                margin-top: 24px;
+                .each-grade {
+                    margin: 0;
                 }
-                h3 {
-                    font-size: 20px;
+                .each-grade + .each-grade {
+                    margin-left: 60px;
                 }
-                p {
+                h4 {
                     font-size: 16px;
                 }
-                .grade {
-                    display: flex;
-                    justify-content: space-between;
-                    margin-top: 24px;
-                    .each-grade {
-                        margin: 0;
-                    }
-                    .each-grade + .each-grade {
-                        margin-left: 60px;
-                    }
-                    h4 {
-                        font-size: 16px;
-                    }
-                    .num {
-                        font-size: 28px;
-                    }
-                    .type {
-                        font-size: 14px;
-                    }
+                .num {
+                    font-size: 28px;
+                }
+                .type {
+                    font-size: 14px;
                 }
             }
-        }
-        .card + .card {
-            margin-left: 30px;
         }
     }
 }
+
+.puzzle {
+    display: flex;
+    margin-top: 12px;
+    .piece {
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        border-radius: 4px;
+        margin: 6px;
+        .filter-grey {
+            background-color: black;
+            width: 100%;
+            height: 100%;
+        }
+        h3 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: bold;
+            color: white !important;
+        }
+        img {
+            background-color: black;
+            opacity: 0.4;
+            position: absolute;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+    .sub-puzzle {
+        margin: 6px;
+    }
+    .sub-puzzle-list {
+        width: 267px;
+        li + li {
+            margin-top: 6px;
+        }
+    }
+    .sub-piece {
+        height: 168px;
+        width: 100%;
+        margin: 0;
+    }
+    .square {
+        width: 350px;
+        height: 350px;
+    }
+    .rectangle {
+        width: 303px;
+        height: 350px;
+    }
+    .thin {
+        width: 172px;
+        height: 350px;
+    }
+}
+
+
