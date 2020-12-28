@@ -12322,18 +12322,17 @@ a {
 
 .content .slide-list .card {
   width: 350px;
+  height: 100%;
   border: 1px black solid;
   overflow: hidden;
-  position: relative;
 }
 
-.content .slide-list .card .photo {
-  position: absolute;
-  width: 100%;
-  top: -50px;
+.content .slide-list .card .photo-filter {
+  height: 120px;
+  overflow: hidden;
 }
 
-.content .slide-list .card .content {
+.content .slide-list .card .userinfo {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12346,22 +12345,22 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding: 40px;
-  margin-top: 50px;
+  margin-top: -100px;
 }
 
-.content .slide-list .card .content .avatar {
+.content .slide-list .card .userinfo .avatar {
   width: 100px;
 }
 
-.content .slide-list .card .content h3 {
+.content .slide-list .card .userinfo h3 {
   font-size: 20px;
 }
 
-.content .slide-list .card .content p {
+.content .slide-list .card .userinfo p {
   font-size: 16px;
 }
 
-.content .slide-list .card .content .grade {
+.content .slide-list .card .userinfo .grade {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12371,23 +12370,23 @@ a {
   margin-top: 24px;
 }
 
-.content .slide-list .card .content .grade .each-grade {
+.content .slide-list .card .userinfo .grade .each-grade {
   margin: 0;
 }
 
-.content .slide-list .card .content .grade .each-grade + .each-grade {
+.content .slide-list .card .userinfo .grade .each-grade + .each-grade {
   margin-left: 60px;
 }
 
-.content .slide-list .card .content .grade h4 {
+.content .slide-list .card .userinfo .grade h4 {
   font-size: 16px;
 }
 
-.content .slide-list .card .content .grade .num {
+.content .slide-list .card .userinfo .grade .num {
   font-size: 28px;
 }
 
-.content .slide-list .card .content .grade .type {
+.content .slide-list .card .userinfo .grade .type {
   font-size: 14px;
 }
 
