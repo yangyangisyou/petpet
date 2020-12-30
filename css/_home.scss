@@ -1,4 +1,7 @@
-
+.logo {
+    width: 121px;
+    height: 55px;
+}
 
 .nav {
     height: 64px;
@@ -7,10 +10,7 @@
     align-items: center;
     padding-left: 85px;
     padding-right: 85px;
-    .logo {
-        width: 121px;
-        height: 55px;
-    }
+    
     .nav-list {
         display: flex;
         justify-content: space-around;
@@ -56,6 +56,7 @@
     }
     p {
         font-size: 20px;
+        font-weight: 500;
     }
 }
 
@@ -204,6 +205,86 @@
         }
         .text {
             font-size: 20px;
+        }
+    }
+}
+
+.step-list {
+    display: flex;
+    justify-content: space-between;
+    li {
+        margin-top: 20px;
+    }
+    img {
+        margin-top: 4px;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.leave-contact {
+    background-color: #F0AD25;
+    padding: 36px;
+    padding-left: 85px;
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    h2 + p {
+        margin-top: 8px;
+    }
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 28px;
+    padding-left: 85px;
+    padding-right: 85px;
+    .footer-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .block {
+        h3 {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        h3 + .link-list {
+            margin-top: 30px;
+        }
+        
+    }
+    .link-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+        li + li {
+            margin-top: 24px;
+        }
+    }
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 100px;
+        .material-icons + a {
+            margin-left: 10px;
+        }
+        a {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        span {
+            font-size: 14px;
+            font-weight: 500;
         }
     }
 }
