@@ -123,6 +123,7 @@
         overflow: hidden;
         border-radius: 4px;
         margin: 6px;
+        cursor: pointer;
         .filter-grey {
             background-color: black;
             width: 100%;
@@ -173,4 +174,36 @@
     }
 }
 
-
+.statistics {
+    background-image: url('https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-9.jpeg');
+    background-repeat: no-repeat;
+    height: 584px;
+    padding: 80px;
+    h2 {
+        font-weight: bold;
+        font-size: 40px;
+        color: white !important;
+    }
+    .count-list {
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        height: 212px;
+        margin-top: 100px;
+        li {
+            margin-left: 5px;
+            border-left: 2px solid white;
+            padding-left: 16px;
+        }
+        p {
+            font-weight: bold;
+            color: white !important;
+        }
+        .num {
+            font-size: 48px;
+        }
+        .text {
+            font-size: 20px;
+        }
+    }
+}

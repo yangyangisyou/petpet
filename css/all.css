@@ -12409,6 +12409,7 @@ a {
   overflow: hidden;
   border-radius: 4px;
   margin: 6px;
+  cursor: pointer;
 }
 
 .puzzle .piece .filter-grey {
@@ -12468,5 +12469,49 @@ a {
 .puzzle .thin {
   width: 172px;
   height: 350px;
+}
+
+.statistics {
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-9.jpeg");
+  background-repeat: no-repeat;
+  height: 584px;
+  padding: 80px;
+}
+
+.statistics h2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: white !important;
+}
+
+.statistics .count-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 700px;
+  height: 212px;
+  margin-top: 100px;
+}
+
+.statistics .count-list li {
+  margin-left: 5px;
+  border-left: 2px solid white;
+  padding-left: 16px;
+}
+
+.statistics .count-list p {
+  font-weight: bold;
+  color: white !important;
+}
+
+.statistics .count-list .num {
+  font-size: 48px;
+}
+
+.statistics .count-list .text {
+  font-size: 20px;
 }
 /*# sourceMappingURL=all.css.map */
