@@ -56,10 +56,13 @@ a {
     background-color: $red;
 }
 
-.search-btn {
+.button {
     background-color: $red !important;
     color: white !important;
-    border: 0 !important;
+}
+
+.search-btn {
+    width: 95px !important;
 }
 
 .booking-btn {
