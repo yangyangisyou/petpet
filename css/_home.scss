@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     height: 736px;
-    .banner-right {
+    .banner-content {
         margin-right: 112px;
         margin-top: 264px;
         
@@ -32,7 +32,7 @@
             font-size: 40px;
             font-weight: bold;
         }
-        p {
+        span {
             font-size: 24px;
             margin-top: 16px;
             font-weight: bold;
@@ -69,7 +69,7 @@
         height: 100%;
         border: 1px black solid;
         overflow: hidden;
-        margin: auto 30px;
+        margin: auto 15px;
         .photo-filter {
             height: 120px;
             overflow: hidden;
@@ -297,3 +297,93 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .banner {
+        display: block;
+        .banner-img {
+            margin: auto;
+            margin-top: 64px;
+            width: 210px;
+            height: 288px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner-content {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                margin-top: 24px;
+                font-size: 32px;
+            }
+            span {
+                font-size: 24px;
+                display: block;
+                margin-top: 0;
+                font-weight: normal;
+            }
+            h1 + span {
+                margin-top: 8px;
+            }
+            .select {
+                margin-top: 12px;
+                select {
+                    width: 390px !important;
+                }
+            }
+            .control {
+                margin-top: 12px;
+                .search-btn {
+                    width: 390px !important;
+                }
+            }
+            .search-field {
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+            }
+        }
+        .godown-icon {
+            margin-top: 100px !important;
+            // float: right;
+            font-size: 44px !important;
+            display: block;
+            right: 0;
+            // display: block;
+        }
+    }
+    .section {
+        padding: 39px;
+    }
+    .slide-list {
+        .card {
+            .userinfo {
+                padding: 0;
+                .grade {
+                    .each-grade + .each-grade {
+                        margin-left: 32px;
+                    }
+                }
+            }
+        }
+    }
+
+    .step-list {
+        li + li {
+            margin-left: 30px;
+        }
+    }
+
+    .leave-contact {
+        padding-left: 39px;
+    }
+
+    footer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+  }

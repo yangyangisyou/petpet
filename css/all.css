@@ -12280,30 +12280,30 @@ a {
   height: 736px;
 }
 
-.banner .banner-right {
+.banner .banner-content {
   margin-right: 112px;
   margin-top: 264px;
 }
 
-.banner .banner-right h1 {
+.banner .banner-content h1 {
   font-size: 40px;
   font-weight: bold;
 }
 
-.banner .banner-right p {
+.banner .banner-content span {
   font-size: 24px;
   margin-top: 16px;
   font-weight: bold;
 }
 
-.banner .banner-right .search-field {
+.banner .banner-content .search-field {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 48px;
 }
 
-.banner .banner-right .godown-icon {
+.banner .banner-content .godown-icon {
   float: right;
   margin-top: 199px;
 }
@@ -12337,7 +12337,7 @@ a {
   height: 100%;
   border: 1px black solid;
   overflow: hidden;
-  margin: auto 30px;
+  margin: auto 15px;
 }
 
 .slide-list .card .photo-filter {
@@ -12646,5 +12646,99 @@ footer .footer-bottom a {
 footer .footer-bottom span {
   font-size: 14px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    display: block;
+  }
+  .banner .banner-img {
+    margin: auto;
+    margin-top: 64px;
+    width: 210px;
+    height: 288px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .banner .banner-content {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .banner .banner-content h1 {
+    margin-top: 24px;
+    font-size: 32px;
+  }
+  .banner .banner-content span {
+    font-size: 24px;
+    display: block;
+    margin-top: 0;
+    font-weight: normal;
+  }
+  .banner .banner-content h1 + span {
+    margin-top: 8px;
+  }
+  .banner .banner-content .select {
+    margin-top: 12px;
+  }
+  .banner .banner-content .select select {
+    width: 390px !important;
+  }
+  .banner .banner-content .control {
+    margin-top: 12px;
+  }
+  .banner .banner-content .control .search-btn {
+    width: 390px !important;
+  }
+  .banner .banner-content .search-field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20px;
+  }
+  .banner .godown-icon {
+    margin-top: 100px !important;
+    font-size: 44px !important;
+    display: block;
+    right: 0;
+  }
+  .section {
+    padding: 39px;
+  }
+  .slide-list .card .userinfo {
+    padding: 0;
+  }
+  .slide-list .card .userinfo .grade .each-grade + .each-grade {
+    margin-left: 32px;
+  }
+  .step-list li + li {
+    margin-left: 30px;
+  }
+  .leave-contact {
+    padding-left: 39px;
+  }
+  footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 /*# sourceMappingURL=all.css.map */
