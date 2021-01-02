@@ -12409,6 +12409,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-top: 12px;
+  height: 360px;
 }
 
 .puzzle .piece {
@@ -12466,17 +12467,14 @@ a {
 
 .puzzle .square {
   width: 350px;
-  height: 350px;
 }
 
 .puzzle .rectangle {
   width: 303px;
-  height: 350px;
 }
 
 .puzzle .thin {
   width: 172px;
-  height: 350px;
 }
 
 .statistics {
@@ -12729,6 +12727,24 @@ footer .footer-bottom span {
   }
   .slide-list .card .userinfo .grade .each-grade + .each-grade {
     margin-left: 32px;
+  }
+  .puzzle {
+    height: 220px;
+  }
+  .puzzle .square {
+    width: 210px;
+  }
+  .puzzle .rectangle {
+    width: 182px;
+  }
+  .puzzle .sub-puzzle-list {
+    width: 160px;
+  }
+  .puzzle .sub-piece {
+    height: 98px;
+  }
+  .statistics {
+    padding: 39px;
   }
   .step-list li + li {
     margin-left: 30px;

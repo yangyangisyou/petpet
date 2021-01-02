@@ -118,6 +118,7 @@
 .puzzle {
     display: flex;
     margin-top: 12px;
+    height: 360px;
     .piece {
         display: inline-block;
         position: relative;
@@ -163,15 +164,12 @@
     }
     .square {
         width: 350px;
-        height: 350px;
     }
     .rectangle {
         width: 303px;
-        height: 350px;
     }
     .thin {
         width: 172px;
-        height: 350px;
     }
 }
 
@@ -348,11 +346,9 @@ footer {
         }
         .godown-icon {
             margin-top: 100px !important;
-            // float: right;
             font-size: 44px !important;
             display: block;
             right: 0;
-            // display: block;
         }
     }
     .section {
@@ -369,6 +365,27 @@ footer {
                 }
             }
         }
+    }
+
+    .puzzle {
+        height: 220px;
+        .square {
+            width: 210px;
+        }
+        .rectangle {
+            width: 182px;
+        }
+        .sub-puzzle-list {
+            width: 160px;
+        }
+        .sub-piece {
+            height: 98px;
+            
+        }
+    }
+
+    .statistics {
+        padding: 39px;
     }
 
     .step-list {
