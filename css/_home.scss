@@ -67,7 +67,7 @@
     .card {
         width: 350px;
         height: 100%;
-        border: 1px black solid;
+        border: 1px rgb(204, 202, 202) solid;
         overflow: hidden;
         margin: auto 15px;
         .photo-filter {
@@ -184,12 +184,16 @@
     }
     .count-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
+        align-items: flex-start;
         margin-top: 100px;
+        margin-bottom: 100px;
         li {
-            margin-left: 5px;
             border-left: 2px solid white;
             padding-left: 16px;
+        }
+        li + li {
+            margin-left: 150px;
         }
         p {
             font-weight: bold;
@@ -200,6 +204,7 @@
         }
         .text {
             font-size: 20px;
+            margin-bottom: 100px;
         }
     }
 }

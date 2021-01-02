@@ -12342,7 +12342,7 @@ a {
 .slide-list .card {
   width: 350px;
   height: 100%;
-  border: 1px black solid;
+  border: 1px #cccaca solid;
   overflow: hidden;
   margin: auto 15px;
 }
@@ -12500,16 +12500,23 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .statistics .count-list li {
-  margin-left: 5px;
   border-left: 2px solid white;
   padding-left: 16px;
+}
+
+.statistics .count-list li + li {
+  margin-left: 150px;
 }
 
 .statistics .count-list p {
@@ -12523,6 +12530,7 @@ a {
 
 .statistics .count-list .text {
   font-size: 20px;
+  margin-bottom: 100px;
 }
 
 .step-list {
