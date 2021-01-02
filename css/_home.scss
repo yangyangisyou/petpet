@@ -40,6 +40,9 @@
         .search-field {
             display: flex;
             margin-top: 48px;
+            .search-btn {
+                width: 95px !important;
+            }
         }
         .godown-icon {
             float: right;
@@ -147,13 +150,15 @@
             position: absolute;
             object-fit: cover;
             height: 100%;
+            width: 100%;
         }
     }
     .sub-puzzle {
+        width: 267px;
         margin: 6px;
     }
     .sub-puzzle-list {
-        max-width: 267px;
+        max-width: 100%;
         li + li {
             margin-top: 6px;
         }
@@ -242,10 +247,10 @@
     }
     .field {
         margin-top: 16px;
-        .input {
+        .email {
             width: 380px !important;
         }
-        .button {
+        .submit {
             width: 160px !important;
         }
     }
@@ -335,16 +340,15 @@ footer {
                     width: 390px !important;
                 }
             }
-            .control {
-                margin-top: 12px;
-                .search-btn {
-                    width: 390px !important;
-                }
-            }
+            
             .search-field {
                 display: flex;
                 flex-direction: column;
                 margin-top: 20px;
+                .search-btn {
+                    margin-top: 12px;
+                    width: 390px !important;
+                }
             }
         }
         .godown-icon {
