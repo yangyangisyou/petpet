@@ -12658,7 +12658,7 @@ footer .footer-bottom span {
   font-weight: 500;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .banner {
     display: block;
   }
@@ -12770,7 +12770,7 @@ footer .footer-bottom span {
   }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 375px) {
   .nav {
     position: relative;
     display: -webkit-box;
