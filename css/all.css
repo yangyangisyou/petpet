@@ -12208,15 +12208,15 @@ a {
 }
 
 .type-dropdown {
-  width: 120px !important;
+  max-width: 120px !important;
 }
 
 .service-dropdown {
-  width: 210px !important;
+  max-width: 210px !important;
 }
 
 .location-dropdown {
-  width: 210px !important;
+  max-width: 210px !important;
 }
 
 .go-down {
@@ -12772,7 +12772,7 @@ footer .footer-bottom span {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .nav {
     position: relative;
     display: -webkit-box;
@@ -12818,6 +12818,9 @@ footer .footer-bottom span {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .slide-list .card {
     margin-left: 0;
@@ -12887,6 +12890,9 @@ footer .footer-bottom span {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .step-list li + li {
     margin-left: 0;

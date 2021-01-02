@@ -411,7 +411,7 @@ footer {
 
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 500px) {
     .nav {
         position: relative;
         display: flex;
@@ -455,6 +455,7 @@ footer {
     }
     .slide-list {
         flex-direction: column;
+        align-items: center;
         .card {
             margin-left: 0;
         }
@@ -516,6 +517,7 @@ footer {
     .step-list {
         padding-top: 40px;
         flex-direction: column;
+        align-items: center;
         li + li {
             margin-left: 0;
         }
