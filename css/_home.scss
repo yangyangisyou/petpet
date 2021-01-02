@@ -443,14 +443,16 @@ footer {
             }
             .select {
                 select {
-                    width: 345px !important;
+                    max-width: 100% !important;
                 }
             }
             .control {
+                
                 .search-btn {
                     width: 345px !important;
                 }
             }
+            
         }
     }
     .slide-list {
@@ -533,10 +535,10 @@ footer {
             font-size: 16px;
         }
         .field {
-            .input {
+            .email {
                 width: 180px !important;
             }
-            .button {
+            .submit {
                 width: 165px !important;
             }
         }

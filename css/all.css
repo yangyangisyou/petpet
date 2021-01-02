@@ -12808,7 +12808,7 @@ footer .footer-bottom span {
         align-content: center;
   }
   .banner .banner-content .select select {
-    width: 345px !important;
+    max-width: 100% !important;
   }
   .banner .banner-content .control .search-btn {
     width: 345px !important;
@@ -12908,10 +12908,10 @@ footer .footer-bottom span {
   .leave-contact p {
     font-size: 16px;
   }
-  .leave-contact .field .input {
+  .leave-contact .field .email {
     width: 180px !important;
   }
-  .leave-contact .field .button {
+  .leave-contact .field .submit {
     width: 165px !important;
   }
   footer {
