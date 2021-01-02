@@ -12425,6 +12425,7 @@ a {
   overflow: hidden;
   border-radius: 4px;
   margin: 6px;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -12459,7 +12460,7 @@ a {
 }
 
 .puzzle .sub-puzzle-list {
-  width: 267px;
+  max-width: 267px;
 }
 
 .puzzle .sub-puzzle-list li + li {
@@ -12473,15 +12474,15 @@ a {
 }
 
 .puzzle .square {
-  width: 350px;
+  max-width: 350px;
 }
 
 .puzzle .rectangle {
-  width: 303px;
+  max-width: 303px;
 }
 
 .puzzle .thin {
-  width: 172px;
+  max-width: 172px;
 }
 
 .statistics {
@@ -12744,13 +12745,13 @@ footer .footer-bottom span {
     height: 220px;
   }
   .puzzle .square {
-    width: 210px;
+    max-width: 210px;
   }
   .puzzle .rectangle {
-    width: 182px;
+    max-width: 182px;
   }
   .puzzle .sub-puzzle-list {
-    width: 160px;
+    max-width: 160px;
   }
   .puzzle .sub-piece {
     height: 98px;
@@ -12831,7 +12832,7 @@ footer .footer-bottom span {
     height: auto;
   }
   .puzzle .piece {
-    width: 100%;
+    max-width: 210px;
     height: 132px;
   }
   .puzzle .sub-puzzle {
@@ -12839,13 +12840,22 @@ footer .footer-bottom span {
   }
   .puzzle .sub-puzzle .sub-puzzle-list {
     margin: 0;
-    width: auto;
+    max-width: 100%;
   }
   .puzzle .sub-piece {
-    width: 100%;
+    max-width: 100%;
   }
   .puzzle img {
     width: 100%;
+  }
+  .puzzle .square {
+    max-width: 100%;
+  }
+  .puzzle .rectangle {
+    max-width: 100%;
+  }
+  .puzzle .thin {
+    max-width: 100%;
   }
   .section {
     padding-left: 12.5px;
