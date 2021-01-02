@@ -12868,6 +12868,7 @@ footer .footer-bottom span {
   }
   .statistics .count-list li + li {
     margin-top: 90px;
+    margin-left: 0;
   }
   .step-list {
     padding-top: 40px;
